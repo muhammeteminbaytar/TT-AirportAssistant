@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ProfileFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="65dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/pTxtInput1"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:foregroundGravity="center"
+                    android:paddingStart="24dp"
+                    android:paddingEnd="24dp"
+                    android:scrollbarSize="25dp"
+                    android:textColorHint="#717171"
+                    app:helperTextTextColor="#CC2828"
+                    app:hintTextAppearance="@style/TextAppearance.AppCompat.Small"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView"
+                    app:passwordToggleTint="#717171"
+                    app:startIconDrawable="@drawable/ic_person">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/profileTxtName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="15"
+                        android:inputType="textPersonName|text"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="12dp"
+                        android:textAlignment="textStart"
+                        android:textSize="18sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/pTxtInput2"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:foregroundGravity="center"
+                    android:paddingStart="24dp"
+                    android:paddingEnd="24dp"
+                    android:scrollbarSize="25dp"
+                    android:textColorHint="#717171"
+                    app:helperTextTextColor="#CC2828"
+                    app:hintTextAppearance="@style/TextAppearance.AppCompat.Small"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/pTxtInput4"
+                    app:passwordToggleTint="#717171"
+                    app:startIconDrawable="@drawable/ic_edit_calendar">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/profileTxtBday"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="15"
+                        android:inputType="textPersonName|text"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="12dp"
+                        android:textAlignment="textStart"
+                        android:textSize="18sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/pTxtInput4"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:foregroundGravity="center"
+                    android:paddingStart="24dp"
+                    android:paddingEnd="24dp"
+                    android:scrollbarSize="25dp"
+                    android:textColorHint="#717171"
+                    app:helperTextTextColor="#CC2828"
+                    app:hintTextAppearance="@style/TextAppearance.AppCompat.Small"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/pTxtInput6"
+                    app:passwordToggleTint="#717171"
+                    app:startIconDrawable="@drawable/ic_contact_phone">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/profileTxtTelNo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="15"
+                        android:inputType="phone"
+                        android:maxLength="10"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="12dp"
+                        android:textAlignment="textStart"
+                        android:textSize="18sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/pTxtInput6"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:foregroundGravity="center"
+                    android:paddingStart="24dp"
+                    android:paddingEnd="24dp"
+                    android:scrollbarSize="25dp"
+                    android:textColorHint="#717171"
+                    app:helperTextTextColor="#CC2828"
+                    app:hintTextAppearance="@style/TextAppearance.AppCompat.Small"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/pTxtInput1"
+                    app:passwordToggleTint="#717171"
+                    app:startIconDrawable="@drawable/ic_email">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/profileTxtMail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="15"
+                        android:enabled="false"
+                        android:inputType="textPersonName|text"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="12dp"
+                        android:textAlignment="textStart"
+                        android:textSize="18sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <RadioGroup
+                    android:id="@+id/pRadioGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:background="@drawable/custom_input"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/pTxtInput2">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:paddingStart="12dp"
+                        android:paddingRight="24dp"
+                        android:text="Gender"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/pRadioWoman"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:checked="true"
+                        android:paddingLeft="12dp"
+                        android:paddingEnd="18dp"
+                        android:text="Woman"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/pRadioMan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Man"
+                        android:textSize="18sp" />
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/profileBtnLogout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:backgroundTint="#AF2E2E"
+                    android:text="SIGNOUT"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/divider2"
+                    app:layout_constraintTop_toBottomOf="@+id/pRadioGroup" />
+
+
+                <Button
+                    android:id="@+id/profileBtnUpdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:backgroundTint="@color/greenThemeColor"
+                    android:text="UPDATE"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@+id/divider2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/pRadioGroup" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="24dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardCornerRadius="50dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/pImageView"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/p_woman"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.cardview.widget.CardView>
+
+                <View
+                    android:id="@+id/divider2"
+                    android:layout_width="1dp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@color/black"
+                    app:layout_constraintBottom_toBottomOf="@+id/profileBtnLogout"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/profileBtnUpdate" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

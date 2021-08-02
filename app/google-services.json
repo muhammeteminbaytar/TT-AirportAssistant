@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "352918008462",
+    "project_id": "tt-airport-assistant",
+    "storage_bucket": "tt-airport-assistant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352918008462:android:0e29daf621078068d10fdf",
+        "android_client_info": {
+          "package_name": "com.muhammetbaytar.ttairportassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352918008462-sg1i1n85mg4it8l6kvsm2kov1sik1e56.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtIamTBv_Kiv2snDtUXpRcSgutzrQ8EbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352918008462-sg1i1n85mg4it8l6kvsm2kov1sik1e56.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

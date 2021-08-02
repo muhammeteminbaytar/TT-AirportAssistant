@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:id="@+id/ic_airplanes"
+    android:icon="@drawable/ic_airplane"
+    android:title="Airplanes" />
+
+    <item android:id="@+id/ic_airlines"
+        android:icon="@drawable/ic_airlines"
+        android:title="Airlines"/>
+
+    <item android:id="@+id/ic_destination"
+        android:icon="@drawable/ic_location"
+        android:title="Destination"/>
+
+    <item android:id="@+id/ic_flights"
+        android:icon="@drawable/ic_flight"
+        android:title="Flights"/>
+
+    <item android:id="@+id/ic_profile"
+        android:icon="@drawable/ic_person"
+        android:title="Profile"/>
+
+</menu>
